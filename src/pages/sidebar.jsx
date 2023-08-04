@@ -26,7 +26,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <section className="flex gap-6 bg-gray-400 ">
+    <section className="flex gap-6 bg-gray-200 ">
       <div
         className={`bg-[#0e0e0e] min-h-screen text-white ${
           open ? "w-72" : "w-0"
